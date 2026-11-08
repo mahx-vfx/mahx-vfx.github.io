@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 页内换页（view transitions）：导航不整页刷新，文档不卸载，
+         从根源消除跨文档导航的副作用（字体交换抖动 / 光标滞留） --><meta name="astro-view-transitions-enabled" content="true"> <meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CnDxeVtR.js"></script><!-- 预载主字体：首访冷加载时尽早拉取，配合 font-display: block --><link rel="preload" href="/fonts/DingTalk-JinBuTi.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="description" content="你好，世界 —— 网站开张第一篇"><meta name="generator" content="Astro v7.4.7"><meta property="og:title" content="你好，世界 —— 网站开张第一篇 — MAHX VFX"><meta property="og:description" content="你好，世界 —— 网站开张第一篇"><meta property="og:type" content="website"><title>你好，世界 —— 网站开张第一篇 — MAHX VFX</title><link rel="stylesheet" href="/_astro/BaseLayout.D0_1QeXr.css"></head> <body class="flex min-h-dvh flex-col"> <header class="text-over-wall fixed inset-x-0 top-0 z-40 backdrop-blur-md" style="background: linear-gradient(to bottom, rgba(5,5,10,0.9), rgba(5,5,10,0.35) 70%, rgba(5,5,10,0.15));"> <!-- 通栏导航（不限宽）：logo 与导航链接对称贴两端，桌面端内距 96px
+       （用户要求空间感：24px 太贴边 → 48px → 再翻倍 96px；移动端保持
+       24px）。不用 max-w 居中容器——那会把 logo 随屏宽推向中间 --><nav class="flex items-center justify-between px-6 md:px-24 py-4"> <a href="/" class="text-lg font-semibold tracking-[0.2em] text-white transition-colors hover:text-white">
+MAHX<span class="text-accent">.VFX</span> </a> <div class="flex gap-6 text-sm md:gap-12"> <a href="/works/" class="text-white/85 transition-colors hover:text-white"> 作品 </a><a href="/tools/" class="text-white/85 transition-colors hover:text-white"> 工具 </a><a href="/notes/" class="text-white/85 transition-colors hover:text-white"> 笔记 </a><a href="/about/" class="text-white/85 transition-colors hover:text-white"> 关于 </a> </div> </nav> </header>  <main class="mx-auto max-w-3xl px-6 pt-32 pb-24"> <a href="/notes/" class="text-sm text-white/50 transition-colors hover:text-white">← 返回笔记列表</a> <header class="mt-8"> <h1 class="text-4xl font-bold">你好，世界 —— 网站开张第一篇</h1> <p class="mt-3 flex flex-wrap items-center gap-3 text-sm text-white/45"> <time datetime="2026-11-06T00:00:00.000Z">2026年11月6日</time> <span>· 随笔</span> </p> </header> <hr class="my-10 border-white/10"> <div class="md-content"> <p>网站今天正式开张。技术栈是 Astro 7 + Tailwind 4，首页开场用 Three.js 写了一个
+「海报从镜头外冲进来、汇聚成海报墙」的效果，灵感来自奈飞的片头光效。</p>
+<h2 id="为什么选-astro">为什么选 Astro</h2>
+<ul>
+<li>内容为主的作品集 + 笔记站，静态输出最合适</li>
+<li>重交互的海报墙开场只出现在首页，正好做成一个独立的 client script</li>
+<li>内置 Markdown 内容集合，写笔记和收录作品的成本极低</li>
+</ul>
+<h2 id="接下来">接下来</h2>
+<ul>
+<li>把海报占位图换成真实作品海报</li>
+<li>补作品详情页的剧照和幕后文字</li>
+<li>把工具页列表补全</li>
+</ul>
+<p>先跑起来，再慢慢打磨。</p>
+ </div> </main>  <!-- bg-ink 纯黑底：盖住 body 的网格背景，页脚信息落在纯黑色块上
+     （用户要求）；整体收窄成一条薄黑框（用户要求） --><footer class="mt-auto border-t border-white/5 bg-ink px-6 py-5 text-center text-sm text-white/40"> <p>© 2026 MAHX VFX · 影视后期</p> <p class="mt-2 flex justify-center gap-5"> <a href="https://gitcode.com/mahx-vfx" target="_blank" rel="noopener" class="transition-colors hover:text-white/80">GitCode</a> <a href="#" class="transition-colors hover:text-white/80">Bilibili</a> <a href="#" class="transition-colors hover:text-white/80">邮箱</a> </p> </footer><script type="module">window.addEventListener(`pageshow`,()=>{let e=document.body;e.style.pointerEvents=`none`,requestAnimationFrame(()=>{e.style.pointerEvents=``})});</script> </body> </html>
